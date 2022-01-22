@@ -1,0 +1,291 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fjalla+One&family=Manrope&family=Poppins:wght@100;300;600&display=swap');
+
+*{padding:0; margin:0;box-sizing: border-box;}
+
+/*REGLAS GENERALES*/
+/*body{
+	background-color: #1690E9;
+}*/
+
+header {
+	width: 88%;
+	background-color: #0064AC;
+	margin-right: auto;
+	margin-left: 6%;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 6px;
+	box-shadow: 1px 1px 7px rgba(60,60,60, 90%);
+	padding-left: 15px;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+
+nav{
+	width: 50%;
+
+}
+
+.logo {
+	width: 11%;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 2px
+}
+
+.logo img{
+	width: 100%;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	width: 100%;
+}
+
+nav ul li{
+	list-style: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	width: 10%;
+	font-family: "Poppins";
+	font-weight: 400;
+}
+
+nav ul li a:hover{
+	transform: scale(1.2);
+	color: rgb(170,170,190);
+}
+
+footer{
+	background-color: #194768;
+	width: 100%;
+	padding-top: 4vh;
+}
+
+.piefooter p{
+	font-family: "Manrope";
+	font-weight: lighter;
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 3vh
+}
+
+
+.mainfooter{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mainfooter nav{
+	width: 25%;
+}
+
+.mainfooter nav ul{
+	display: block;
+}
+
+.mainfooter nav ul li{
+	margin-bottom: 2vh;
+}
+
+.mainfooter nav ul li a{
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+.mainfooter div{
+	width: 25%;
+	margin-bottom: 2vh;
+}
+
+.mainfooter div div{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin-bottom: auto;
+}
+
+.mainfooter div h3{
+	font-family: "Poppins";
+	color: #FFFFFF;
+	font-size: 1rem;
+	font-weight: bold;
+	width: 100%;
+	margin-bottom: 2vh
+}
+
+.mainfooter div p{
+	font-family: "Poppins";
+	font-size: 1rem;
+	font-weight: 200;
+	color: #FFFFFF;
+	width: 90%;
+	margin-bottom: 2vh
+}
+
+.mainfooter div div p{}
+.mainfooter div div img{
+	width: 5%;
+}
+
+#seguinos{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#seguinos img{
+	width: 5%;
+	margin-right: 5%;
+}
+
+.recursos{
+	background-color: #1B1B1B;
+	margin-top: 1vh;
+	padding: 5px;
+	text-align: center;
+}
+.recursos a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: "Manrope";
+	font-size: 10px;
+}
+/*INDEX*/
+
+.slider {
+	background-color: #26B0DC;
+	width: 100%;
+	z-index: 1;	
+	position: relative;
+}
+
+.slider img{
+	width: 100%;
+	opacity: 80%;
+}
+
+.slider div{
+	position: absolute;
+	top:55%;
+	text-align: center;
+	width: 100%
+}
+
+.slider div p{
+	font-family: "Poppins";
+	font-weight: bold;
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 5vh;
+}
+
+#subtitle{
+	font-family: "Poppins";
+	font-weight: 300;
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 3vh;
+	margin-bottom: 4vh
+}
+
+.slider a{
+	border: solid 1px #FFFFFF;
+	font-family: "Poppins";
+	font-weight: 200;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-top: 0.6%;
+	padding-bottom: 0.6%;
+}
+
+.slider a:hover{
+	background-color: #FFFFFF;
+	transition: background-color ease 0.3s;
+	color: rgb(50,50,50);
+	font-weight: 300;
+}
+
+
+main{
+	width: 70%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10vh;
+	padding-bottom: 13vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+main div{
+	width: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+main div div{
+	width: 100%;
+}
+
+main div div h2{
+	font-family: "Manrope";
+	color: #1c1c1c;
+	font-weight: 1000;
+	width: 100%;
+	margin-bottom: 2vh;
+}
+
+main div div p{
+	font-family: "Manrope";
+	font-weight: 500;
+	text-align: center;
+	width: 100%;
+}
+
+main div iframe{
+	width: 80%;
+	box-shadow: 3px 3px 10px rgb(170,170,170)
+}
+
+.icons{
+	width: 80%;
+	margin-top: 10vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+.icons div{
+	width: 20%;
+	text-align: center;
+}
+
+.icons div img{
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2vh;
+}
